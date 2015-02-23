@@ -1,0 +1,74 @@
+body{
+  overflow-x:hidden;
+  .navv{
+  border-bottom: 1px solid grey;
+  background: transparent;
+    .logo{
+    margin-left: 50px;
+    background-color: #00def2;
+    vertical-align: middle;
+    font-size: 75px;
+    height:100px;
+    width:100px;
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    top:0;
+    }
+    .nav-pills{
+      li{
+        a{
+          color:grey;
+          font-size: 15px;
+        }
+        a:hover{
+          color:#00def2;
+          background: transparent;        
+        }
+      }
+    }
+    #nav1{
+    float:right;
+    margin-right: 75px;
+    margin-top:-70px;
+    }
+  }
+  .cntr{
+  margin-top: 100px;
+  height:500px;
+   .image{
+   width:100%;
+   height:100%;
+   }
+   .heading
+   {
+   font-family: 'Nunito', sans-serif;
+   font-size: 25px;
+   color: grey;
+   }
+  }
+  .container1{
+  margin-top: 150px;
+  height:500px;
+   .image{
+   width:100%;
+   height:100%;
+   }
+   .heading
+   {
+   font-family: 'Nunito', sans-serif;
+   font-size: 25px;
+   color: grey;
+   }
+  }
+  .contact1{
+  margin-top: 150px;
+  background-color:#F6F6F8;
+    .contact{ 
+    color: grey;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    }
+  }
+}  

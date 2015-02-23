@@ -1,0 +1,63 @@
+body{
+  overflow-x:hidden;
+  .navv{
+  border-bottom: 1px solid grey;
+  background: transparent;
+    .logo{
+    margin-left: 50px;
+    background-color: #00def2;
+    vertical-align: middle;
+    font-size: 75px;
+    height:100px;
+    width:100px;
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    top:0;
+    }
+    .nav-pills{
+      li{
+        a{
+          color:grey;
+          font-size: 15px;
+        }
+        a:hover{
+          color:#00def2;
+          background: transparent;        
+        }
+      }
+    }
+    #nav1{
+    float:right;
+    margin-right: 75px;
+    margin-top:-70px;
+    }
+  }
+  .heading
+  {
+  font-family: 'Nunito', sans-serif;
+  color: grey;
+  text-align: center;
+  }
+ .paraabout{
+  text-align: justify;
+  line-height: 40px;
+  font-size: 20px;
+  color: grey;
+  font-family: 'Varela Round', sans-serif;
+  }
+ .hding{
+  font-family: 'Nunito', sans-serif;
+  color: grey;
+  }
+ .contact1{
+  background-color:#F6F6F8;
+   .contact{ 
+  color: grey;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+    
+    }
+  }
+ }  

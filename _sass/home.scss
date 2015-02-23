@@ -1,0 +1,161 @@
+body{
+  overflow-x:hidden;
+  .navv{
+  border-bottom: 1px solid grey;
+  background: transparent;
+    .logo{
+    margin-left: 50px;
+    background-color: #00def2;
+    vertical-align: middle;
+    font-size: 75px;
+    height:100px;
+    width:100px;
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    top:0;
+    }
+    .nav-pills{
+      li{
+        a{
+          color:grey;
+          font-size: 15px;
+        }
+        a:hover{
+          color:#00def2;
+          background: transparent;        
+        }
+      }
+    }
+    #nav1{
+    float:right;
+    margin-right: 75px;
+    margin-top:-70px;
+    }
+  }
+  .profile_body{
+  background-image: url(http://alexaraujo.co/wp-content/uploads/slide_one.jpg); 
+  background-color: rgb(228, 229, 231);
+  height:100vh;
+  width:100vw;
+  top:90px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-clip: inherit;
+  background-size: cover;
+  }
+  #desiimg{
+  margin-left: 560px;
+  margin-top: 80px;
+  }
+  #des{
+  margin-left: 495px;
+  color:grey;
+  line-height: 36px;
+  margin-bottom: 10px;
+  font-family: 'Nunito', sans-serif;
+  }
+  #des1{
+  margin-left: 300px;
+  margin-top: 40px;
+  margin-right: 280px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-top:1px solid grey;
+  color:grey;
+  line-height: 25px; 
+  font-family: 'Varela Round', sans-serif;   
+    #break{
+    margin-left: 90px;
+    }
+  }
+  .about{
+  margin-top:50px;
+    .abt{
+    height: 400px;
+    background-color:#F6F6F8;
+      #abimg{
+      margin-left: 160px;
+      margin-top: 20px;
+      }
+      .heading{
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+      color:grey;
+      }
+      .para{
+      text-align: center;
+      margin-top: 30px;
+      margin-left: 60px;
+      margin-right: 58px;
+      line-height:35px;
+      color:grey;
+      font-family: 'Varela Round', sans-serif;
+      }
+    }  
+  }
+  #img1{
+  margin-left: 560px;
+  margin-top: 80px;
+  }
+  #work1{
+  margin-left: 590px;
+  color:grey;
+  line-height: 36px;
+  margin-bottom: 10px;
+  font-family: 'Nunito', sans-serif;
+  }
+  #work2{
+  margin-left: 300px;
+  margin-top: 40px;
+  margin-right: 300px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-top:1px solid grey;
+  color:grey;
+  line-height: 25px;  
+  font-family: 'Varela Round', sans-serif;
+    #br1{
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    }
+    #br2{
+    margin-left: 37px;
+    font-family: 'Nunito', sans-serif;
+    }
+    #br3{
+    margin-left: 180px;
+    font-family: 'Nunito', sans-serif;
+    }  
+  }
+  .clas{
+  margin-top: 50px;
+    #workimg{
+    width:100%;
+    }
+    #imf{
+    height:364px;
+    }
+  }  
+  .ims{
+  margin-top:30px;
+    #imf{
+    height:364px;
+    }
+  }
+  .contact1{
+  background-color:#F6F6F8;
+    .contact{ 
+    color: grey;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    }
+  }
+}
+
+.ih-item.square.effect13 {
+  width: auto;
+  height: auto;
+}

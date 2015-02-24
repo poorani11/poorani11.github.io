@@ -3,12 +3,13 @@ layout: default
 ---
 
 <div class="profile_body">
+  <div class="hero">I'm Awesome, and I know it!</div>
 </div>
 <section>
-  <div>
-    <img  id="desiimg" src="images/Eyecon.png" alt="eyecon image" style="width:130px;height:130px"> 
+  <div class='desicontainer'>
+    <img  id="desiimg" src="images/Eyecon.png" alt="eyecon image"> 
     <h2 id="des">Design Methodology</h2>
-    <h4 id="des1">My methodology involves the process of solving problems through the use of <span  id="break">design modes like thought, expression and production</span>.</h4>
+    <h4 id="des1">My methodology involves the process of solving problems through the use of <br>design modes like thought, expression and production.</h4>
   </div>
   <div class= "container-fluid about">
     <div class="row">
@@ -28,14 +29,13 @@ layout: default
         <h4 class="para">Involves creating and articulating between the visual and functional parts of the problem and make them coherent.</h4>
       </div>
     </div>
-  </section>
-  <section>
-    <div>
-      <img  id="img1" src="images/Penicon.png" alt="penicon image" style="width:130px;height:130px"> 
-      <h2 id="work1">Work</h2>
-      <h4 id="work2"><span id="br1">I’ve had the opportunity of working on very interesting  projects that cover</span>  <span id="br2">different spectrums of design,development and testing.I always learn</span>  <span id="br3">and have fun while working on them.</span></h4>
-    </div>
-
+  </div>
+</section>
+<section>
+  <div class="img1_container">
+    <img  id="img1" src="images/Penicon.png" alt="penicon image"> 
+    <h2 id="work1">Work</h2>
+    <h4 id="work2">I’ve had the opportunity of working on very interesting  projects that cover different spectrums of design,development and testing.I always learn and have fun while working on them.</h4>
   </div>
   <div class="container clas">
     <div class="row">
@@ -46,59 +46,62 @@ layout: default
             <h3>PERSONAL WEBSITE</h3>
           </div></a>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="ih-item square effect13 top_to_bottom"><a href="#">
+          <div class="img"><img  id="imf"src="images/timthumb_006.jpeg" alt="twitter image"></div>
+          <div class="info">
+            <h3>BOOKONNECT</h3>
+            <p>An app that allows you to know the books owned by people in the same college</p>
+          </div></a>
         </div>
-        <div class="col-md-4">
-            <div class="ih-item square effect13 top_to_bottom"><a href="#">
-              <div class="img"><img  id="imf"src="images/timthumb_006.jpeg" alt="twitter image"></div>
-              <div class="info">
-                <h3>BOOKONNECT</h3>
-                <p>An app that allows you to know the books owned by people in the same college</p>
-              </div></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="container ims">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="ih-item square effect13 top_to_bottom"><a href="#">
+          <div class="img"> <img id="imf" src="images/timthumb_004.jpeg" alt="bookconnect image"></div>
+          <div class="info">
+            <h3>TWITTER CLONE</h3>
+            <p> using ruby on Rails</p>
+          </div></a>
+        </div>
 
-            </div>
-          </div>
-        <div class="container ims">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="ih-item square effect13 top_to_bottom"><a href="#">
-                <div class="img"> <img id="imf" src="images/timthumb_004.jpeg" alt="bookconnect image"></div>
-                <div class="info">
-                  <h3>TWITTER CLONE</h3>
-                  <p> using ruby on Rails</p>
-                </div></a></div>
+      </div>
+      <div class="col-md-8">
+        <div class="ih-item square effect13 top_to_bottom"><a href="#">
+          <div class="img"><img id= "workimg" src="images/timthumb_005.jpeg" alt="bookconnect image"></div>
+          <div class="info">
+            <h3>PERSONAL WESITE</h3>
+          </div></a>
+        </div>
 
-              </div>
-              <div class="col-md-8">
-                <div class="ih-item square effect13 top_to_bottom"><a href="#">
-                  <div class="img"><img id= "workimg" src="images/timthumb_005.jpeg" alt="bookconnect image"></div>
-                  <div class="info">
-                    <h3>PERSONAL WESITE</h3>
-                  </div></a></div>
-
-                </div>
-              </div>
-            </div>
-            <div class="container ims">
-              <div class="row">
-               <div class="col-md-8">
-                <div class="ih-item square effect13 top_to_bottom"><a href="#">
-                  <img   id="workimg" src="images/timthumb_008.jpeg" alt="bookconnect image">
-                  <div class="img"></div>
-                  <div class="info">
-                    <h3>MEALPLAN</h3>
-                    <p>An app That allows you create meal plan according to your meal prefrences and add recipes on the go</P>
-                  </div></a></div>
-                </div>
-                <div class="col-md-4">
-                  <div class="ih-item square effect13 top_to_bottom"><a href="#">
-                    <div class="img"> <img id="imf" src="images/timthumb_004.jpeg" alt="bookconnect image"></div>
-                    <div class="info">
-                      <h3>TESTING</h3>
-                      <p>Using rspec, Capybara, factory-girls</p>
-                    </div></a></div>
-
-                  </div>
-                </div>
-              </div>
-            </section>
-            <hr>
+      </div>
+    </div>
+  </div>
+  <div class="container ims">
+    <div class="row">
+     <div class="col-md-8">
+      <div class="ih-item square effect13 top_to_bottom"><a href="#">
+        <img   id="workimg" src="images/timthumb_008.jpeg" alt="bookconnect image">
+        <div class="img"></div>
+        <div class="info">
+          <h3>MEALPLAN</h3>
+          <p>An app That allows you create meal plan according to your meal prefrences and add recipes on the go</P>
+          </div></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="ih-item square effect13 top_to_bottom"><a href="#">
+          <div class="img"> <img id="imf" src="images/timthumb_004.jpeg" alt="bookconnect image"></div>
+          <div class="info">
+            <h3>TESTING</h3>
+            <p>Using rspec, Capybara, factory-girls</p>
+          </div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -36,25 +36,67 @@ body{
     }
   }
   .profile_body{
-    background-image: url("images/dot.svg"),linear-gradient(140deg,rgba(24,46,74,.85),rgba(70,174,195,.65)),url("images/profile.jpg");
-    height:100vh;
-    width:100vw;
-    top:90px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    background-clip: inherit;
-    background-size: cover;
+     width:100vw;
+  height:100vh;
+    background-image: url("/images/dot.svg"),linear-gradient(140deg,rgba(24,46,74,.85),rgba(70,174,195,.65)),url("/images/profile.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-position: 10%  0;
+  
+  .land_container{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
     
-    .hero {
-      font-family: 'Audiowide', cursive;
-      font-size: 4vw;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      color: white;
-      text-align: center;
-    }
+    #heading{
+        margin: 0 0 15px;
+        text-shadow: 0 1px 2px rgba(0,0,0,.3);
+        letter-spacing: 1.5px;
+        font-size: 45px;
+    line-height: 55px;
+}
+#hero_p{
+        color: #d7eff3;
+    margin: 0 auto 20px;
+    max-width: 550px;
+    width: 85%;
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: .25px;
+    line-height: 29px;
+}
+#about_me{
+        margin: 0 auto;
+    max-width: 225px;
+    background: linear-gradient(#69c339 0,#3ebd4d 100%);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.21);
+    display: block;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    max-width: 300px;
+    outline: 0;
+    padding: 18px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    width: 100%;
+    z-index: 100;
+}
+#about_me:hover{
+    color:white;
+}
+#ref{
+  color:white;
+}
+
+  }
   }
   .desicontainer {
     text-align: center;

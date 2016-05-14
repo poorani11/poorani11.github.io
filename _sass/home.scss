@@ -97,14 +97,15 @@ body{
 }
 
 .hero-arrow {
-    left: 0;
-    margin: 0 auto;
+  top: 120%;
+
     position: absolute;
-    right: 0;
     height: 15px;
     width: 40px;
-    background-image: url("/images/down-arrow.svg") no-repeat;
+    background: url("/images/down-arrow.svg") no-repeat;
     bottom: 30px;
+    color:white;
+
     }
 
   }

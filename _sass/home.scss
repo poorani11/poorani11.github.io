@@ -50,14 +50,14 @@ body{
     position: relative;
     text-align: center;
     color: white;
-    font-weight: bold;
     
     #heading{
         margin: 0 0 15px;
         text-shadow: 0 1px 2px rgba(0,0,0,.3);
-        letter-spacing: 1.5px;
+        letter-spacing: 12.5px;
         font-size: 45px;
     line-height: 55px;
+    font-weight: 100;
 }
 #hero_p{
         color: #d7eff3;
@@ -70,7 +70,7 @@ body{
     letter-spacing: .25px;
     line-height: 29px;
 }
-#about_me{
+.button{
         margin: 0 auto;
     max-width: 225px;
     background: linear-gradient(#69c339 0,#3ebd4d 100%);
@@ -88,13 +88,24 @@ body{
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
     width: 100%;
     z-index: 100;
-}
-#about_me:hover{
     color:white;
 }
-#ref{
-  color:white;
+.button:hover{
+  background: linear-gradient(#3ebd4d 0,#3ebd4d 100%);
+    color:white;
+    text-decoration: none;
 }
+
+.hero-arrow {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    height: 15px;
+    width: 40px;
+    background-image: url("/images/down-arrow.svg") no-repeat;
+    bottom: 30px;
+    }
 
   }
   }
